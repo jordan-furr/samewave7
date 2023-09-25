@@ -7,4 +7,4 @@ Katrina + Jordan
 Based in Brooklyn, NY. :yarn:
 
 
-[about](/about.md)
+[about](/about)
