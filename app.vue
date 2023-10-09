@@ -1,27 +1,29 @@
+<script setup lang="ts">
+
+useHead({
+  title: 'Samewave 7',
+  meta: [
+    { name: 'description', content: 'Fiber art by Katrina Stalcup and Jordan Furr'},
+    { name: 'theme-color', content: '#4285f4'}
+  ],
+  bodyAttrs: {
+    class: 'test'
+  },
+  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+})
+
+useSeoMeta({
+  title: 'Samewave7',
+  ogTitle: 'Samewave7',
+  description: 'Fiber art by Katrina Stalcup and Jordan Furr',
+  ogDescription: 'Fiber art by Katrina Stalcup and Jordan Furr',
+  ogImage: '/public/stitch_logo',
+  twitterCard: 'summary_large_image',
+})
+</script>
+
 <template>
-  <div class="container">
+  <div>
     <NuxtPage />
-    <h1>SAMEWAVE 7</h1>
   </div>
 </template>
-
-<style>
-body {
-  margin: 0;
-}
-
-.container{
-  height: 100vh;
-  width: 100vw;
-  background: #5ea06c;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-h1{
-  text-align: center;
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 800;
-}
-</style>
