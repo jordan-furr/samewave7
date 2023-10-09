@@ -1,15 +1,13 @@
 <template>
   <main>
       <div class = "container">
-        <header>
-          <h1>SAMEWAVE 7</h1>
-        </header>
-        <p><NuxtLink to="/about">about</NuxtLink></p>
+        <p><NuxtLink to="/about"><img src="~/public/stitch_logo.png" alt="Samewave7 stitch logo" class="logo" /></NuxtLink></p>
       </div>
   </main>
 </template>
 
 <style>
+ @import '/style.css';
 .container{
   height: 100vh;
   width: 100vw;
@@ -26,5 +24,11 @@ h1{
 }
 main {
     background-color: orange;
+}
+.logo{
+    height: 40vh;
+}
+.logo:hover{
+    height: 41vh;
 }
 </style>

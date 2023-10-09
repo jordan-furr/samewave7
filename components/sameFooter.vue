@@ -20,6 +20,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 30vh;
 }
 .footer-info{
     display: flex;
