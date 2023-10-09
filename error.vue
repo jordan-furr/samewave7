@@ -1,15 +1,14 @@
 <template>
-  <main>
-      <div class = "container">
-        <header>
-          <h1>SAMEWAVE 7</h1>
-        </header>
-        <p><NuxtLink to="/about">about</NuxtLink></p>
-      </div>
-  </main>
+  <div class="container">
+    <h1>error page 7</h1>
+  </div>
 </template>
 
 <style>
+body {
+  margin: 0;
+}
+
 .container{
   height: 100vh;
   width: 100vw;
@@ -23,8 +22,5 @@ h1{
   text-align: center;
   font-family: helvetica, arial, sans-serif;
   font-weight: 800;
-}
-main {
-    background-color: orange;
 }
 </style>
