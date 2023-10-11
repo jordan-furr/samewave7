@@ -4,7 +4,7 @@ useHead({
   title: 'Samewave 7',
   meta: [
     { name: 'description', content: 'Fiber art by Katrina Stalcup and Jordan Furr'},
-    { name: 'theme-color', content: '#4285f4'}
+    { name: 'theme-color', content: '#5ea06c'}
   ],
   bodyAttrs: {
     class: 'test'

@@ -3,10 +3,8 @@
     <same-header/>
     <main>
       <div class ="container">
-        <div class ="about-text">
-          <p>Katrina + Jordan</p>
-          <p>Based in Brooklyn, NY.</p>
-          <p>Founded October, 2021.</p>
+        <div class ="contact-text">
+          <p>email us: samewave7@gmail.com</p>
         </div>
       </div>
     </main>

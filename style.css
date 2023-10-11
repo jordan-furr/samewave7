@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
 
-html, body {
+/*
+html, body, h1 {
     font-family: 'Courier Prime', monospace;
 }
 
 #app {
     font-family: 'Courier Prime', monospace;
+}
+*/
+.links{
+    color: white;
+    text-decoration: none;
+}
+.links:hover{
+    color: rgb(250, 172, 250);
 }

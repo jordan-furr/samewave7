@@ -1,7 +1,12 @@
 <template>
   <main>
       <div class = "container">
-        <p><NuxtLink to="/about"><img src="~/public/stitch_logo.png" alt="Samewave7 stitch logo" class="logo" /></NuxtLink></p>
+          <div class="title">
+              <h1>SAMEWAVE7</h1>
+          </div>
+          <div class="entry-button">
+              <p><NuxtLink to="/about">about</NuxtLink></p>
+          </div>
       </div>
   </main>
 </template>
@@ -17,18 +22,8 @@
   align-items: center;
   justify-content: center;
 }
-h1{
-  text-align: center;
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 800;
-}
-main {
-    background-color: orange;
-}
-.logo{
-    height: 40vh;
-}
-.logo:hover{
-    height: 41vh;
+.title h1{
+    font-family: 'Courier Prime', monospace;
+    font-size: 5vh;
 }
 </style>
