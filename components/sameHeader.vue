@@ -2,7 +2,7 @@
     <footer>
         <div class="header-wrapper">
             <div class="navbar">
-                <p>welcome</p>
+                <p><NuxtLink to="/">home</NuxtLink></p>
             </div>
         </div>
     </footer>
@@ -10,14 +10,16 @@
 
 <style>
 .header-wrapper{ 
-    background-color: white;
+    background-color: #5ea06c;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
 }
 .navbar{
-    color: green;
+    color: white;
     display: flex;
+    padding: 0em 1em;
+    text-decoration: none;
 }
 </style>

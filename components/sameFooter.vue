@@ -14,6 +14,7 @@
 </template>
 
 <style>
+@import '/style.css';
 .footer-wrapper{ 
     background-color: black;
     display: flex;
@@ -34,13 +35,5 @@
 }
 .artist:first-child{
     margin-right: 20px;
-}
-.links{
-    color: white;
-    text-decoration: none;
-}
-.links:hover{
-    color: rgb(250, 172, 250);
-    text-emphasis-color: yellow;
 }
 </style>
