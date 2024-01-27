@@ -7,6 +7,7 @@
           <p>Katrina + Jordan</p>
           <p>Based in Brooklyn, NY.</p>
           <p>Founded October, 2021.</p>
+          <p><NuxtLink to="/contact">contact</NuxtLink></p>
         </div>
       </div>
     </main>
