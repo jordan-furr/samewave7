@@ -1,18 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
-
-/*
-html, body, h1 {
-    font-family: 'Courier Prime', monospace;
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: #287c54;
+    overflow-x: hidden;
 }
-
-#app {
-    font-family: 'Courier Prime', monospace;
+main {
+    height: 100%;
 }
-*/
-.links{
-    color: white;
+a{
     text-decoration: none;
+    color: black;
 }
-.links:hover{
-    color: rgb(250, 172, 250);
+.w-100 {
+    width: 100%;
+}
+.pb-font-size {
+    padding-bottom: 1.2rem;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.flex {
+    display: flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.align-center {
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.entry-page {
+    background-color: white;
+    height: 100vh;
+}
+.enter-same{
+    font-size: 2.2rem !important;
+    margin: 0;
+}
+.enter-text {
+    text-decoration: underline;
+}
+.enter-text:hover{
+    color:black;
+}
+.navbar {
+    padding: 0px 15px 0 15px;
+}
+.logo {
+    width: 50vw;
+}
+.links{
+    gap: 1.2rem;
+    width: 50vw;
+}
+.enter-green{
+    color: #237d57;
+}
+.work {
+    padding: 0px 15px 0 15px;
 }
