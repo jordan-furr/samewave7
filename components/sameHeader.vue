@@ -6,11 +6,11 @@
     </head>
     <div class="navbar flex flex-row">
         <div class="logo">
-            <h3><NuxtLink to="/work">SAMEWAVE7</NuxtLink></h3>
+            <p><NuxtLink class="menu-item" to="/work">SAMEWAVE7</NuxtLink></p>
         </div>
-        <div class="flex flex-end links">
-            <h3><NuxtLink to="/about">ABOUT</NuxtLink></h3>
-            <h3><NuxtLink to="/contact">CONTACT</NuxtLink></h3>
+        <div class="flex flex-end menu">
+            <p><NuxtLink class="menu-item" to="/about">INFORMATION</NuxtLink></p>
+            <p><NuxtLink class ="menu-item" to="/medium">MEDIUM</NuxtLink></p>
         </div>
     </div>
 </template>
