@@ -2,12 +2,14 @@ html, body {
     margin: 0;
     height: 100%;
     width: 100%;
-    font-size: 1.2rem;
-    background-color: #287c54;
+    font-size: 1.1rem;
     overflow-x: hidden;
 }
 main {
     height: 100%;
+}
+p {
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -15,6 +17,15 @@ a{
 }
 .w-100 {
     width: 100%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-50{
+    width: 50%;
+}
+.w-40 {
+    width: 40%;
 }
 .pb-font-size {
     padding-bottom: 1.2rem;
@@ -55,18 +66,21 @@ a{
     color:black;
 }
 .navbar {
-    padding: 0px 15px 0 15px;
+    padding: 15px;
 }
 .logo {
     width: 50vw;
 }
-.links{
+.menu{
     gap: 1.2rem;
     width: 50vw;
+}
+.menu-item:hover {
+    color:#237d57;
 }
 .enter-green{
     color: #237d57;
 }
-.work {
+.plr-15 {
     padding: 0px 15px 0 15px;
 }
