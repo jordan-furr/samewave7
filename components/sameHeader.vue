@@ -1,25 +1,16 @@
 <template>
-    <footer>
-        <div class="header-wrapper">
-            <div class="navbar">
-                <p><NuxtLink to="/">home</NuxtLink></p>
-            </div>
+    <head>
+        <title>SAMEWAVE7 | HOME</title>
+        <meta property="og:title" content="SAMEWAVE7 | HOME">
+        <meta property="og:description" content="Samewave is the art practice of Katrina Stalcup and Jordan Furr.">
+    </head>
+    <div class="wrapper">
+        <div class="navbar w-50 flex flex-start">
+            <p><NuxtLink to="/work">SAMEWAVE7</NuxtLink></p>
         </div>
-    </footer>
+        <div class="navbar w-50 flex flex-end">
+            <p><NuxtLink to="/about">ABOUT</NuxtLink></p>
+            <p><NuxtLink to="/contact">CONTACT</NuxtLink></p>
+        </div>
+    </div>
 </template>
-
-<style>
-.header-wrapper{ 
-    background-color: #5ea06c;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-}
-.navbar{
-    color: white;
-    display: flex;
-    padding: 0em 1em;
-    text-decoration: none;
-}
-</style>
