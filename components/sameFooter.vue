@@ -14,7 +14,6 @@
 </template>
 
 <style>
-@import '/style.css';
 .footer-wrapper{ 
     background-color: black;
     display: flex;
