@@ -2,8 +2,8 @@ html, body {
     margin: 0;
     height: 100%;
     width: 100%;
-    font-size: 1.6rem;
-    background-color: #1b6345;
+    font-size: 1.2rem;
+    background-color: #287c54;
     overflow-x: hidden;
 }
 main {
@@ -12,12 +12,6 @@ main {
 a{
     text-decoration: none;
     color: black;
-}
-.enter-text {
-    color: white;
-}
-.enter-text:hover{
-    color:black;
 }
 .w-100 {
     width: 100%;
@@ -43,23 +37,36 @@ a{
 .align-center {
     align-items: center;
 }
-.entry-page{
-    background: #5ea06c;
-  }
-.navbar{
-    gap: 1.2rem;
-}
-.container{
-    background: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.justify-center{
     justify-content: center;
 }
 .entry-page {
-    background-color: #1b6345;
-    height: 100%;
+    background-color: white;
+    height: 100vh;
 }
-.wrapper {
+.enter-same{
+    font-size: 2.2rem !important;
+    margin: 0;
+}
+.enter-text {
+    text-decoration: underline;
+}
+.enter-text:hover{
+    color:black;
+}
+.navbar {
+    padding: 0px 15px 0 15px;
+}
+.logo {
+    width: 50vw;
+}
+.links{
+    gap: 1.2rem;
+    width: 50vw;
+}
+.enter-green{
+    color: #237d57;
+}
+.work {
     padding: 0px 15px 0 15px;
 }

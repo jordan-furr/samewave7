@@ -4,13 +4,13 @@
         <meta property="og:title" content="SAMEWAVE7 | HOME">
         <meta property="og:description" content="Samewave is the art practice of Katrina Stalcup and Jordan Furr.">
     </head>
-    <div class="wrapper">
-        <div class="navbar w-50 flex flex-start">
-            <p><NuxtLink to="/work">SAMEWAVE7</NuxtLink></p>
+    <div class="navbar flex flex-row">
+        <div class="logo">
+            <h3><NuxtLink to="/work">SAMEWAVE7</NuxtLink></h3>
         </div>
-        <div class="navbar w-50 flex flex-end">
-            <p><NuxtLink to="/about">ABOUT</NuxtLink></p>
-            <p><NuxtLink to="/contact">CONTACT</NuxtLink></p>
+        <div class="flex flex-end links">
+            <h3><NuxtLink to="/about">ABOUT</NuxtLink></h3>
+            <h3><NuxtLink to="/contact">CONTACT</NuxtLink></h3>
         </div>
     </div>
 </template>

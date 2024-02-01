@@ -8,11 +8,9 @@
         </div>
       </div>
     </main>
-    <same-footer/>
   </body>
 </template>
 
 <style>
 @import '/style.css';
-
 </style>
