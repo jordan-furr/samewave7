@@ -87,3 +87,9 @@ a{
 .plr-15 {
     padding: 0px 15px 0 15px;
 }
+@media screen and (max-width: 992px){
+    p{
+        color: blue;
+    }
+
+}
