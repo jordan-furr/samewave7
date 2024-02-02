@@ -27,6 +27,9 @@ a{
 .w-40 {
     width: 40%;
 }
+.w-30{
+    width: 16%;
+}
 .pb-font-size {
     padding-bottom: 1.2rem;
 }
