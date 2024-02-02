@@ -13,6 +13,6 @@
     "nuxt": "^3.7.3"
   },
   "resolutions": {
-    "string-width": "4.2.3"
+    "jackspeak": "2.1.1"
  }
 }
