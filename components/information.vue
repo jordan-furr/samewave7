@@ -1,5 +1,5 @@
 <template>
-    <div class ="plr-15 flex flex-col flex-start w-40">
+    <div class ="plr-15 flex flex-col flex-start w-30">
         <p>samewave7 is the fiber arts practice of Katrina Stalcup and Jordan Furr.</p>
         <br>
         <p>Commissions:</p>
@@ -14,6 +14,5 @@
         <p>Stay tuned for warmer weather...</p>
         <br>
         <p></p>
-        <p><NuxtLink to="/contact">contact</NuxtLink></p>
     </div>
 </template>
